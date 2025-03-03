@@ -93,7 +93,7 @@ class arrays_hashing:
     # VALID SUDOKU
     # checks if a sudoku board is valid or not (only valid, not if solvable)
     # Time complexity: O(9^2) (since it is being looped over 81 times)
-    # Space complexity: O(9^2) (since )
+    # Space complexity: O(9^2) (why tho?)
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         # one set per column to check for uniqueness of column
         cols = defaultdict(set)
